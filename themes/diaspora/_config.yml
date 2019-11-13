@@ -12,7 +12,7 @@ autoplay: true
 
 # 默认音乐
 mp3:
-  - http://m10.music.126.net/20191113220710/0f2aa9d592ae365f00f746b3dd230b0a/ymusic/aeef/7a2c/49ae/d0c11193ff7ba2c3e85f3da00ed6be39.mp3
+  - http://m10.music.126.net/20191113224313/7b40d86c46c47fe4601e0cea43a14316/ymusic/6734/4ac6/279d/238d18a169900e9f111a4e7c7ea79af2.mp3
 
 # 首页封面图, 为空时取文章的cover作为封面
 welcome_cover: /img/marisa.jpeg

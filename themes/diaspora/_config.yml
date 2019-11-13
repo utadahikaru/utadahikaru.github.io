@@ -1,6 +1,6 @@
 # 头部菜单，title: link
 menu:
-  Whoami: /whoami
+  # Whoami: /whoami
   Github: https://github.com/utadahikaru
   Instagram: https://www.instagram.com/yanagi_five/
 
@@ -43,13 +43,13 @@ gitalk:
   distractionFreeMode: false
 
 # 网站关键字
-keywords: Fechin
+keywords: ShiJun,Yanagi
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
 google_analytics:
 
 # 网站ico
-favicon: /img/favicon.png
+favicon: /img/favicon.ico
 
 # rss文件
 rss: atom.xml

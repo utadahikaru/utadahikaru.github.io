@@ -32,7 +32,7 @@
                 style="width:400px;height:400px;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px#a3ddfb; text-align:center;opacity:1;transition:opacity 0.3s ease-out;">
                 <div>
                     <h2>LOADING...</h2>
-                    <p>加载过慢请开启缓存(浏览器默认开启)</p>
+                    <p>Welcome to Seb's Blog</p>
                     <div>
                         <img src="/dancingkitty.gif" alt="loading">
                     </div>
@@ -169,7 +169,7 @@
 
     <a href="/2021/07/24/Sheena-Ringo/">
         <h2>
-            Sheena Ringo
+            Personal Sharing:Sheena Ringo and Tokyo Incidents
         </h2>
     </a>
 
@@ -189,27 +189,13 @@
     <div class="excerpt">
         <div class="content" v-pre>
             
-            
             <h3 >My favourite artist and singer.  :)</h3>
 <h2 >Sheena Ringo</h2>
 <p><strong>Yumiko Shiina</strong> (椎名 裕美子, <em>Shiina Yumiko</em>, born November 25, 1978), known by her stage name <strong>Ringo Sheena</strong> (椎名 林檎, <em>Sheena Ringo</em>), is a Japanese singer, songwriter and musician. She is also the founder and lead vocalist of the band <a target="_blank" rel="noopener" href='https://en.wikipedia.org/wiki/Tokyo_Jihen'>Tokyo Jihen</a>.</p>
 <p>She describes herself as &quot;<em>Shinjuku-kei Jisaku-Jien-ya</em> (新宿系自作自演屋, <em>a <a target="_blank" rel="noopener" href='https://en.wikipedia.org/wiki/Shinjuku'>Shinjuku</a>-style writer-performer</em>)&quot;. She was ranked number 36 in a list of Japan&#39;s top 100 musicians compiled by HMV in 2003.</p>
 
 <p><img src="/images/SR2018.jpeg"></p>
-<h2 >Tokyo Incidents</h2>
-<p><strong>Tokyo Jihen</strong> (東京事変, <em>Tōkyō Jihen</em>), also known as <strong>Tokyo Incidents</strong>, is a Japanese rock band formed by <a target="_blank" rel="noopener" href='https://en.wikipedia.org/wiki/Ringo_Sheena'>Ringo Sheena</a>, after leaving her solo career. The band&#39;s debut single &quot;<a target="_blank" rel="noopener" href='https://en.wikipedia.org/wiki/Gunjō_Biyori'>Gunjō Biyori</a>&quot; was released in September 2004, and they ended activities in February 2012. The band sold 2.3 million albums, singles, and DVDs. The band reunited and released a new single on January 1, 2020.</p>
-<h4 >The best song: Marunouchi Sadistic </h4>
-
-<p align="center">
-<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=3493279&bvid=BV1os411979Y&cid=5553551&page=1" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-</p>
-
-<p><img src="/images/tj2018.png"></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-
+            
             
         </div>
     </div>
@@ -223,7 +209,7 @@
         
         <span class="tag">
             
-            <a href="/tags/My-favourite Singer and Artist" style=color:#6484be>
+            <a href="/tags/My-favourite Singer and Artist" style=color:#016a99>
                 My favourite Singer and Artist
             </a>
         </span>
@@ -259,19 +245,12 @@
     <div class="excerpt">
         <div class="content" v-pre>
             
-            
             <p>ZARD and Sakai Izumi are the best symbol for my childhood memory with Japanese Culture.</p>
 <h3 id="ZARD"><a href="#ZARD" class="headerlink" title="ZARD"></a>ZARD</h3><p>Zard (ザード, Zādo) were a Japanese pop rock group. Originally a group of five members, with lead vocalist Izumi Sakai as its only constant member. Zard’s work was sold under the record label B-Gram Records, Inc. Their most popular and successful songs are “Makenaide” (1993) (負けないで), “Yureru Omoi” (1993) (揺れる想い), and “My Friend” (1996). As of 2014, Zard has sold over 37 million records, making them one of the best-selling music artists in Japan.</p>
 <h6 id="Click-here-for-a-tour-of-ZARD"><a href="#Click-here-for-a-tour-of-ZARD" class="headerlink" title="Click here for a tour of ZARD"></a>Click here for a tour of ZARD</h6><p align="center">
 <iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=56398488&bvid=BV1t4411u7Lu&cid=98554441&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </p>
-
-
-
-
-<h3 id="Sakai-Izumi"><a href="#Sakai-Izumi" class="headerlink" title="Sakai Izumi"></a>Sakai Izumi</h3><p>Sachiko Kamachi (蒲池 幸子, Kamachi Sachiko, February 6, 1967 – May 27, 2007), known professionally as Izumi Sakai (坂井 泉水, Sakai Izumi), was a female Japanese pop singer, songwriter, and member of the group Zard. As Sakai was the only member who stayed in the group while others joined and left regularly, Zard and Sakai may be referred to interchangeably. She was the best-selling female recording artist of the 1990s and has sold over 37 million copies of sales, making her one of the best-selling music artists in Japan of all time.</p>
-<p><img src="/images/Sakai_Izumi.jpeg"></p>
-
+            
             
         </div>
     </div>
@@ -327,7 +306,7 @@
     </div>
     
     <div id="home-card">
-        <a-affix :offset-top="card_top">
+        <a-affix :target="() => this.$refs.container">
     <a-card class="card-style" style="width: 300px">
         <div class="avatar">
             <img src="16.jpeg " alt="头像">
@@ -397,7 +376,32 @@
 </div>
                      
 <footer id="footer">
+
+
+    
+
     <div class="footer-wrap">
+        <div id="disqus_thread"></div>
+    <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://seb-blog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
         <div>
             © 2021 - 2021 Seb Liu&#39;s Portfolio
             <span class="footer-icon">
@@ -411,6 +415,7 @@
     </div>
 
 </footer>
+
 
 <script src="/js/highlight.min.js"></script>
 <script src="/js/particle.js"></script>
@@ -426,7 +431,7 @@
             show_page: false,
             onload_menu: false,
             menu_show: false,
-            card_top: 100
+            card_top: 0,
         },
         created: function () {
             var that = this

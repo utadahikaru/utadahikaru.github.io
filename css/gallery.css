@@ -1,0 +1,10 @@
+.gallery-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.gallery-column {
+  display: flex;
+  flex-direction: column-reverse;
+}
